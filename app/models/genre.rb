@@ -1,4 +1,5 @@
 
+
 class Genre < ActiveRecord::Base
   has_many :songs, through: :song_genres
   has_many :song_genres
@@ -11,5 +12,6 @@ class Genre < ActiveRecord::Base
     self.all.detect {|element| element.name.slugify == slug}
   end
 end
+
 
 
