@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 
+gem 'slugify'
 gem 'sinatra'
 gem 'activerecord', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
